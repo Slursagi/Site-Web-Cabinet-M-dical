@@ -144,6 +144,37 @@ if ($lang === 'en') {
 	"ilian_problem_2" => "Internal calls between softphones failed.",
 	"ilian_solution_2" => "Used `sip show peers` for diagnostics + restarted Asterisk service.",
 
+	//private.php
+	"private_space_title" => "Private space",
+	"deliverables_section" => "Deliverables",
+	"deliverable_pdf" => "View final deliverable (PDF)",
+	"network_config" => "View addressing plan",
+	"test_screenshots" => "View test screenshots",
+	"logins_section" => "Logins",
+	"login_file" => "Logins file",
+	"test_results_section" => "Test results",
+	"test_php_mysql" => "PHP ↔ MySQL connection working",
+	"test_telephony" => "Internal calls functional with Asterisk",
+	"test_dns_dhcp" => "DHCP + DNS server successfully configured",
+	"test_dude" => "Active monitoring via The Dude",
+	"task_distribution_section" => "Task distribution",
+	"diagrams_section" => "Diagrams",
+	"diagram_phone" => "Phone plan",
+	"diagram_network" => "Network plan",
+	"diagram_gantt" => "Gantt diagram",
+	"selfeval_section" => "Self-evaluations",
+	"selfeval_pdf" => "Self-evaluation file",
+	"eval_pdf" => "Cross-evaluation file",
+	"issues_section" => "Issues encountered",
+	"issue_php_mysql" => "Connection issue between site and MySQL resolved",
+	"issue_sessions" => "PHP session now maintained across pages",
+	"issue_redirect" => "Successful redirection after login implemented",
+	"summary_section" => "Summary",
+	"summary_text" => "All services have been successfully configured and meet the project's expectations.",
+	"prob+solu" => "Problemes and solution",
+	"probtitre" => "Heres the differents problemes and solution",
+
+
     );
 } 
 //Français
@@ -276,6 +307,37 @@ else {
 	"ilian_solution_1" => "Vérification des ports SIP + fichiers `sip.conf` et `extensions.conf`.",
 	"ilian_problem_2" => "Appels internes échoués entre softphones.",
 	"ilian_solution_2" => "Commande `sip show peers` + redémarrage d'Asterisk.",
+
+	//private.php
+	"private_space_title" => "Espace privé",
+	"deliverables_section" => "Livrables",
+	"deliverable_pdf" => "Voir le livrable final (PDF)",
+	"network_config" => "Voir le plan d’adressage",
+	"test_screenshots" => "Voir les captures de tests",
+	"logins_section" => "Identifiants",
+	"login_file" => "Fichier des identifiants",
+	"test_results_section" => "Résultats des tests",
+	"test_php_mysql" => "Connexion PHP ↔ MySQL fonctionnelle",
+	"test_telephony" => "Appels internes fonctionnels avec Asterisk",
+	"test_dns_dhcp" => "Serveur DHCP + DNS configuré avec succès",
+	"test_dude" => "Supervision active via The Dude",
+	"task_distribution_section" => "Répartition des tâches",
+	"diagrams_section" => "Schémas",
+	"diagram_phone" => "Plan de téléphonie",
+	"diagram_network" => "Plan réseau",
+	"diagram_gantt" => "Diagramme de Gantt",
+	"selfeval_section" => "Autoévaluations",
+	"selfeval_pdf" => "Fichier d’autoévaluation",
+	"eval_pdf" => "Fichier d’évaluation croisée",
+	"issues_section" => "Problèmes rencontrés",
+	"issue_php_mysql" => "Problème de connexion entre le site et la base MySQL résolu",
+	"issue_sessions" => "Session PHP maintenant maintenue sur les pages",
+	"issue_redirect" => "Redirection correcte après connexion implémentée",
+	"summary_section" => "Résumé",
+	"summary_text" => "L'ensemble des services ont été configurés avec succès, répondant aux attentes du projet.",
+	"prob+solu" => "Problèmes et solution",
+	"probtitre" => "Voici les différents problèmes et solution",
+
 
     );
 }
