@@ -1,4 +1,48 @@
+/* SECTION RÉPARTITION DES TÂCHES */
+.repartition {
+    margin-top: 2rem;
+}
 
+.repartition h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #1a237e;
+    text-shadow: 1px 1px 2px #dfe6fd;
+}
+
+.repartition h2 {
+    font-size: 1.4rem;
+    color: #0d47a1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.repartition h2 strong {
+    font-weight: 900;
+}
+
+.repartition ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.repartition li {
+    margin-bottom: 1rem;
+    background-color: #e8f0fe;
+    border-left: 5px solid #2196f3;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease;
+}
+
+.repartition li:hover {
+    background-color: #d2e3fc;
+}
 /* Reset de base */
 * {
     margin: 0;

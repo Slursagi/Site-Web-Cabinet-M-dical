@@ -1,54 +1,59 @@
+<?php
+session_start();
+include 'include/lang.php';
+include 'include/header.php';
+?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<?php echo $_SESSION['lang']; ?>">
 <head>
     <meta charset="UTF-8">
-    <title>Téléphonie</title>
+    <title><?php echo $lang['telephonie']; ?></title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
 </head>
 <body>
 
-    <?php include 'include/header.php'; ?>
 
-    <main>
-        <h1>📞 Système de téléphonie - SAÉ24</h1>
+<main>
+    <h1><?php echo $lang['telephony_title']; ?></h1>
 
-        <section>
-            <h2>🔧 Solution choisie : Asterisk</h2>
-            <p>
-                Le serveur Linux héberge le service Asterisk, un IPBX open-source permettant la gestion de la téléphonie sur IP.
-                Il permet de configurer des postes internes, des transferts, des messages vocaux, et des scénarios personnalisés.
-            </p>
-        </section>
+    <section>
+        <h2><?php echo $lang['asterisk_solution']; ?></h2>
+        <p><?php echo $lang['asterisk_description']; ?></p>
+    </section>
 
-        <section>
-            <h2>📟 Appareils utilisés</h2>
-            <ul>
-                <li><strong>Softphones :</strong> Jitsi ou Zoiper utilisés pour simuler les postes internes depuis les PC</li>
-                <li><strong>Téléphones IP FON-175 :</strong> utilisés pour les postes physiques</li>
-                <li><strong>Mobile Aastra 320w :</strong> téléphone Wi-Fi configuré sur le réseau</li>
-            </ul>
-        </section>
+    <section>
+        <h2><?php echo $lang['devices_used']; ?></h2>
+        <ul>
+            <li><strong><?php echo $lang['softphones']; ?> :</strong> <?php echo $lang['softphones_desc']; ?></li>
+            <li><strong><?php echo $lang['fon175']; ?> :</strong> <?php echo $lang['fon175_desc']; ?></li>
+            <li><strong><?php echo $lang['aastra']; ?> :</strong> <?php echo $lang['aastra_desc']; ?></li>
+	    <li><strong><?php echo $lang['cisco']; ?> :</strong> <?php echo $lang['cisco_desc']; ?></li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>📞 Plan de numérotation</h2>
-            <p>Chaque poste est identifié par un numéro interne :</p>
-            <ul>
-                <li>4030 : Secrétaire</li>
-                <li>4031 : Dentiste</li>
-                <li>4032 à 4034 : Kinés</li>
-                <li>4035 : Médecin</li>
-                <li>4036 : Mobile Wi-Fi</li>
-            </ul>
-        </section>
+    <section>
+        <h2><?php echo $lang['dial_plan']; ?></h2>
+        <p><?php echo $lang['dial_plan_intro']; ?></p>
+        <ul>
+            <li>4030 : <?php echo $lang['secretary']; ?></li>
+            <li>4031 : <?php echo $lang['dentist']; ?></li>
+            <li>4032 à 4034 : <?php echo $lang['kines']; ?></li>
+            <li>4035 : <?php echo $lang['doctor']; ?></li>
+            <li>4036 : <?php echo $lang['wifi_mobile']; ?></li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>🔍 Tests réalisés</h2>
-            <ul>
-                <li>Commandes <code>sip show peers</code> et <code>sip show users</code> vérifiées dans Asterisk</li>
-                <li>Appels internes testés entre softphones</li>
-                <li>Fonctionnement des scénarios simples (appel secrétaire, message d'accueil)</li>
-            </ul>
-        </section>
-    </main>
+    <section>
+        <h2><?php echo $lang['tests_done']; ?></h2>
+        <ul>
+	    <li><?php echo $lang['sip_commands1']; ?><br><img src="images/Showpeers.PNG" alt="commaned sip" width="70%"></li>
+	    <li><?php echo $lang['sip_commands2']; ?><br><img src="images/sipusers.PNG" alt="commaned sip" width="70%"></li>
+            <li><?php echo $lang['internal_calls']; ?></li>
+            <li><?php echo $lang['scenarios']; ?></li>
+        </ul>
+    </section>
+</main>
+
 </body>
 </html>

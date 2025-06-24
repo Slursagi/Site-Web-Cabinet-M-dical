@@ -1,47 +1,48 @@
+<?php
+session_start();
+include 'include/lang.php';
+include 'include/header.php';
+?>
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<?php echo $_SESSION['lang']; ?>">
 <head>
     <meta charset="UTF-8">
-    <title>Présentation de l'équipe</title>
+    <title><?php echo $lang['team_page_title']; ?> - SAE 24</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
 </head>
 <body>
 
-<?php include 'include/header.php'; ?>
+<main class="repartition">
+    <h1><?php echo $lang['team_main_title']; ?></h1>
 
-<main>
-    <h1>👥 Équipe projet SAÉ24</h1>
-    <table border="1" cellpadding="8" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Responsabilités</th>
-                <th>Rôle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>GAETAN</td>
-                <td>Supervision The Dude, gestion de projet, livrables</td>
-                <td><strong>Chef de projet</strong></td>
-            </tr>
-            <tr>
-                <td>MAMADOU</td>
-                <td>Serveur Linux Ubuntu Mate (Web, MySQL, FTP, TFTP, Asterisk, SMTP/POP3)</td>
-                <td>Membre</td>
-            </tr>
-            <tr>
-                <td>ILIAN</td>
-                <td>Système de téléphonie (Asterisk), softphones, téléphones physiques</td>
-                <td>Membre</td>
-            </tr>
-            <tr>
-                <td>NAEL</td>
-                <td>Windows Server 2019 (AD, DHCP, DNS) ,site Web RWD, simulation Packet Tracer</td>
-                <td>Membre</td>
-            </tr>
-        </tbody>
-    </table>
+    <h2><strong>Gaetan Wesemann (<?php echo $lang['project_leader']; ?>)</strong></h2>
+    <ul>
+        <li><?php echo $lang['task_gaetan_1']; ?></li>
+        <li><?php echo $lang['task_gaetan_2']; ?></li>
+        <li><?php echo $lang['task_gaetan_3']; ?></li>
+        <li><?php echo $lang['task_gaetan_4']; ?></li>
+    </ul>
+
+    <h2>Nael Zerroukhi</h2>
+    <ul>
+        <li><?php echo $lang['task_nael_1']; ?></li>
+        <li><?php echo $lang['task_nael_2']; ?></li>
+        <li><?php echo $lang['task_nael_3']; ?></li>
+    </ul>
+
+    <h2>Mamadou Bah</h2>
+    <ul>
+        <li><?php echo $lang['task_mamadou_1']; ?></li>
+        <li><?php echo $lang['task_mamadou_2']; ?></li>
+    </ul>
+
+    <h2>Ilian Bouffersaoui</h2>
+    <ul>
+        <li><?php echo $lang['task_ilian_1']; ?></li>
+        <li><?php echo $lang['task_ilian_2']; ?></li>
+    </ul>
 </main>
 
 </body>
