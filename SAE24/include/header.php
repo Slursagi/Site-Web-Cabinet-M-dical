@@ -37,7 +37,7 @@
 
     $autre_langue = ($langue_actuelle === 'fr') ? 'en' : 'fr';
     $label_langue = strtoupper($autre_langue);
-    echo "<a href=\"?lang=$autre_langue\" class=\"lang-switch\">$label_langue</a>";
+    echo "<a href=\"?lang=$autre_langue\" class=\"lang-switch\">🌍$label_langue</a>";
     ?>
   </div>
 </div>
