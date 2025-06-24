@@ -1,7 +1,7 @@
 <div class="top-header">
   <div class="nav-container">
     <?php
-    include_once 'include/lang.php'; // Assure que $t est bien disponible
+    include_once 'include/lang.php';
 
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
