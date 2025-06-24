@@ -25,7 +25,6 @@ include 'include/lang.php';
         <section>
             <h2><?= $lang["deliverables_section"] ?></h2>
             <ul>
-                <li><a href="documents/livrable_final.pdf" target="_blank"><?= $lang["deliverable_pdf"] ?></a></li>
                 <li><a href="images/PLANARCH.pdf" target="_blank"><?= $lang["network_config"] ?></a></li>
                 <li><a href="images/test_connection.png" target="_blank"><?= $lang["test_screenshots"] ?></a></li>
             </ul>
