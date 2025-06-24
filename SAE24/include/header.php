@@ -1,7 +1,7 @@
 <div class="top-header">
   <div class="nav-container">
     <?php
-    include_once 'include/lang.php'; // Assure que $t est bien disponible
+    include_once 'include/lang.php';
 
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
@@ -37,7 +37,7 @@
 
     $autre_langue = ($langue_actuelle === 'fr') ? 'en' : 'fr';
     $label_langue = strtoupper($autre_langue);
-    echo "<a href=\"?lang=$autre_langue\" class=\"lang-switch\">🌐 $label_langue</a>";
+    echo "<a href=\"?lang=$autre_langue\" class=\"lang-switch\">$label_langue</a>";
     ?>
   </div>
 </div>
