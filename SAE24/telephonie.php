@@ -36,11 +36,11 @@ include 'include/header.php';
         <h2><?php echo $lang['dial_plan']; ?></h2>
         <p><?php echo $lang['dial_plan_intro']; ?></p>
         <ul>
-            <li>4030 : <?php echo $lang['secretary']; ?></li>
-            <li>4031 : <?php echo $lang['dentist']; ?></li>
-            <li>4032 à 4034 : <?php echo $lang['kines']; ?></li>
-            <li>4035 : <?php echo $lang['doctor']; ?></li>
-            <li>4036 : <?php echo $lang['wifi_mobile']; ?></li>
+            <li>300 : <?php echo $lang['secretary']; ?></li>
+            <li>301 : <?php echo $lang['dentist']; ?></li>
+            <li>302 -> 304 : <?php echo $lang['kines']; ?></li>
+            <li>305 : <?php echo $lang['doctor']; ?></li>
+            <li>306 : <?php echo $lang['wifi_mobile']; ?></li>
         </ul>
     </section>
 

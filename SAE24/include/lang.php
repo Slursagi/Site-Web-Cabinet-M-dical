@@ -28,8 +28,8 @@ if ($lang === 'en') {
         "espace_prive" => "Private space",
 	
 	//SAE24.php
-        "welcome" => "Welcome to our SAE24 project website",
-        "intro" => "This site presents the work carried out as part of SAE24: Setting up an IT solution for a medical office.",
+        "welcome" => "Welcome to our medical cabinet",
+        "intro" => "This site presents the work carried out for the medical cabinet: Setting up an IT solution for this medical office.",
         "content_title" => "Website content",
         "team" => "Team",
         "team_desc" => "Presentation of members and role distribution",
@@ -41,6 +41,7 @@ if ($lang === 'en') {
         "problems_desc" => "Difficulties encountered and solutions",
         "private_space" => "Private space",
         "private_space_desc" => "Restricted access with authentication",
+	"title" => "Medical Cabinet",
 	
 	//equipe.php
         "team_page_title" => "Our Team",
@@ -121,6 +122,7 @@ if ($lang === 'en') {
 	"problems_main_title" => "Issues Encountered - SAE24",
 	"problem" => "Problem",
 	"solution" => "Solution",
+	"problems_page_title" => "Problemes and solution",
 
 	"gaetan_problem_1" => "Difficulty getting ESXi to work on some machines due to BIOS/UEFI compatibility.",
 	"gaetan_solution_1" => "Changed machine + enabled virtualization in BIOS.",
@@ -192,8 +194,8 @@ else {
         "espace_prive" => "Espace privé",
 
 	//SAE24.php
-        "welcome" => "Bienvenue sur le site de la SAÉ24",
-        "intro" => "Ce site présente les travaux réalisés dans le cadre de la SAÉ24 : Mise en place d’une solution informatique pour un cabinet médical.",
+        "welcome" => "Bienvenue sur le site du cabinet médical",
+        "intro" => "Ce site présente les travaux réalisés dans le cadre du cabinet médical : Mise en place d’une solution informatique pour un cabinet médical.",
         "content_title" => "Contenu du site",
         "team" => "Équipe",
         "team_desc" => "Présentation des membres et répartition des rôles",
@@ -205,6 +207,7 @@ else {
         "problems_desc" => "Difficultés et solutions apportées",
         "private_space" => "Espace privé",
         "private_space_desc" => "Accès restreint avec authentification",
+	"title" => "Cabinet Médical",
 
 	//equipe.php
         "team_page_title" => "Notre équipe",
@@ -285,6 +288,7 @@ else {
 	"problems_main_title" => "Problèmes rencontrés - SAÉ24",
 	"problem" => "Problème",
 	"solution" => "Solution",
+	"problems_page_title" => "Problème et solution",
 
 	"gaetan_problem_1" => "Difficulté à faire fonctionner ESXi sur certains postes avec compatibilité BIOS/UEFI.",
 	"gaetan_solution_1" => "Changement de machine + activation de la virtualisation dans le BIOS.",

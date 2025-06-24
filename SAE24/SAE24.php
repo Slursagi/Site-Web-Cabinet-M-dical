@@ -8,7 +8,7 @@ include 'include/header.php';
 <html lang="<?php echo $_SESSION['lang']; ?>">
 <head>
     <meta charset="UTF-8">
-    <title>SAÉ24 - <?php echo $t['title']; ?></title>
+    <title><?php echo $lang['title']; ?></title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/icon.ico">
 </head>
